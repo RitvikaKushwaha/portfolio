@@ -546,7 +546,15 @@ width: 80%
 /* teams section styling */
 
 
-
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
 .conference-content{
     margin-bottom: 45px;
 }
